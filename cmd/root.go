@@ -72,7 +72,7 @@ func initConfig() {
 
 		// Search config in home directory with name ".my-calc" (without extension).
 		viper.AddConfigPath(home)
-		viper.SetConfigName(".my-calc")
+		viper.SetConfigName(".cli-app")
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match
